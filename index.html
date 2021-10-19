@@ -1,0 +1,25 @@
+{% load static %} 
+<!doctype html>
+<html lang="en">
+  <head> 
+    <title>Hello, world!</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="{% static 'css/styles.css' %">
+    <!--CSS Bootstrap-->
+    <link rel="stylesheet" href="{% ststic 'vendor/bootstrap/bootstrap.css' %}" >
+  </head>
+  <body>
+      <!--Banner-->
+      <img id=banner src="{% static 'img/marc-schorr-A9-XmSnLQQU-unsplash.jpg" alt="">
+      
+      <!--Menu-->
+      <div id="menu">
+          <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about/">About</a></li>
+              <li><a href="/contact/">Contact</a></li>
+          </ul>
+      </div>
+
+  </body>
+</html>
